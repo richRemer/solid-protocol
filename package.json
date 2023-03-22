@@ -3,5 +3,8 @@
   "version": "0.0.0-alpha1",
   "description": "SOLID protocol definitions",
   "type": "module",
-  "exports": "./protocol.js"
+  "exports": "./protocol.js",
+  "scripts": {
+    "test": "echo no tests defined"
+  }
 }
