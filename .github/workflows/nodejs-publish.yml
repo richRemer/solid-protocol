@@ -16,4 +16,7 @@ jobs:
           node-version: ${{matrix.node-version}}
           cache: npm
           token: ${{secrets.NPM_TOKEN}}
-      - run: npm publish --access public
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{secrets.NPM_TOKEN}}
+          access: public
