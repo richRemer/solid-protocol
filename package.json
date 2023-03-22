@@ -1,0 +1,6 @@
+{
+  "name": "@welib/solid-protocol",
+  "description": "SOLID protocol definitions",
+  "type": "module",
+  "exports": "./protocol.js"
+}
