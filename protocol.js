@@ -1,1 +1,1 @@
-export * as ns from "./src/ns.js";
+export * from "./src/ns.js";
